@@ -1,0 +1,15 @@
+name: Lobby
+description: A simple lobby plugin for the Scrimmagecast Network
+main: org.anchor.lobby.Lobby
+version: 0.1
+authors:
+- dentmaged
+
+permissions:
+  lobby.manage:
+    default: op
+  lobby.manage.setspawn:
+    default: op
+
+  lobby.spawn:
+    default: true
